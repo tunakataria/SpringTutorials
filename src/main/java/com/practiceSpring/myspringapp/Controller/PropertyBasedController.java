@@ -9,7 +9,6 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class PropertyBasedController {
     @Autowired
-    @Qualifier("propertyBasedDI")
     GreetingsService greetingsService;
 
     public String sayHello() {
